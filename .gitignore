@@ -9,6 +9,9 @@ app/out/
 .env
 .env.local
 .env.*.local
+app/.env
+app/.env.local
+app/.env.*.local
 
 # OS
 .DS_Store
