@@ -1,7 +1,7 @@
 import { revalidateTag } from "next/cache";
 
 export async function POST() {
-  revalidateTag("vinilos");
+  revalidateTag("vinilos", "max");
   return Response.json({
     ok: true,
     revalidated: "vinilos",
@@ -10,7 +10,7 @@ export async function POST() {
 }
 
 export async function GET() {
-  revalidateTag("vinilos");
+  revalidateTag("vinilos", "max");
   return Response.json({
     ok: true,
     revalidated: "vinilos",
