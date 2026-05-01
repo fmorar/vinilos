@@ -14,7 +14,7 @@ type Props = {
 type CartItem = { vinilo: Vinilo; qty: number };
 
 const PAGE_SIZE = 60;
-const WA_NUMBER = "50670500186";
+const WA_NUMBER = "50663057633";
 
 function normalize(s: string): string {
   return s
