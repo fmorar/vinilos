@@ -1,0 +1,24 @@
+export type Vinilo = {
+  id: number;
+  did?: string;
+  estado?: string;
+  con?: string;
+  oov?: number;
+  nuevo?: boolean;
+  artista: string;
+  titulo: string;
+  sello: string;
+  catalogo: string;
+  formato_extra: string;
+  formato: string;
+  origen: string;
+  anio: string;
+  condicion_disco: string;
+  condicion_portada: string;
+  genero: string;
+  notas: string;
+  urls: string[];
+  precio: number | null;
+  precio_raw: string;
+  pagina: number;
+};

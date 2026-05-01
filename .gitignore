@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Next.js
+app/.next/
+app/out/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude Code memory (session-local)
+.claude/memory/
+.claude/projects/
