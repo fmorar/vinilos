@@ -179,6 +179,8 @@ export async function fetchVinilos(): Promise<FetchResult> {
     const oov_raw = (row[11] || "").trim();
     const con = (row[12] || "").trim();
 
+    if (estado.toUpperCase() !== "DISPONIBLE") continue;
+
     const parsed = parseTitleField(titleField);
 
     vinilos.push({
